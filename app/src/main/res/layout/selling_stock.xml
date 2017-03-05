@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/selling"/>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/heading"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to sell stocks"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/heading"
+            android:id="@+id/contnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.	Borrow the stock you want to bet against. ...
+2.	You immediately sell the shares you have borrowed. ...
+3.	You wait for the stock to fall and then buy the shares back at the new, lower price.
+4.	You return the shares to the brokerage you borrowed them from and pocket the difference.
+
+"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

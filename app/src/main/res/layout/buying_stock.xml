@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/buyers"/>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/heading"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to buy stocks"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/heading"
+            android:id="@+id/contnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.	Choose a brokerage that offers low fees and quality research.
+2.	Consider familiar companies as prospective first stock purchases.
+3.	Decide how many shares you want.
+4.	Select your order type — “market” to buy immediately, “limit” to set a price target.
+"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--Background with solid color-->
+
+    <solid android:color="@color/colorWhite"/>
+
+    <!--background with gradient-->
+    <!--<gradient-->
+    <!--android:centerColor="#fff"-->
+    <!--android:centerX="50%"-->
+    <!--android:centerY="50%"-->
+    <!--android:endColor="#f0f"-->
+    <!--android:gradientRadius="100"-->
+    <!--android:startColor="#f00"-->
+    <!--android:type="radial"/>-->
+
+    <!--Stoke with dashed line-->
+    <!--<stroke-->
+    <!--android:width="8dp"-->
+    <!--android:color="#f00"-->
+    <!--android:dashGap="8dp"-->
+    <!--android:dashWidth="8dp"/>-->
+
+    <!--Stroke normal-->
+    <stroke
+        android:width="1dp"
+        android:color="@color/willow_grove"/>
+
+    <padding
+        android:bottom="0dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"/>
+
+</shape>

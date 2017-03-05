@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/companyLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:id="@+id/desc_avg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+
+            <TextView
+                android:id="@+id/descLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Description" />
+
+            <TextView
+
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Description" />
+
+            <!--<TextView-->
+
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/avgStock"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Average stock"-->
+            <!--/>-->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+
+            android:id="@+id/avg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc_avg"
+            android:layout_marginTop="5dp">
+
+
+            <TextView
+                android:id="@+id/avgLabel"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Average Rate" />
+
+            <TextView
+                android:id="@+id/avgStock"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avgLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Average stock" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/avg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#003366"
+                android:text="Buy"
+
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/LineChart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#003366"
+                android:text="Sell"
+                android:textColor="#ffffff" />
+
+
+            <Button
+                android:id="@+id/barChartDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="#003366"
+                android:text="Bar Chart"
+
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/LineChartDesc"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="100dp"
+                android:background="#003366"
+                android:text="Line Chart"
+                android:textColor="#ffffff" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

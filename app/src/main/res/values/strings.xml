@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Stock Market Simulation</string>
+    <string name="hint_name">Muhammad Sohail</string>
+    <string name="hint_email">Sohail1@gmail.com</string>
+    <string name="hint_password">********</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+
+    <string name="hint_acc_no">3223</string>
+
+
+    <string name="hint_password_user">Pasword</string>
+
+    <string name="hint_email_user">Email</string>
+
+    <string name="hint_acc">Account #</string>
+
+    <string name="hint_full">Full Name</string>
+
+</resources>
